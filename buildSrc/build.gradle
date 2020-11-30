@@ -1,1 +1,8 @@
 apply plugin:'groovy'
+repositories {
+    google()
+    jcenter()
+}
+dependencies {
+    implementation gradleApi()
+}
